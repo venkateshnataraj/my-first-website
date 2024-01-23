@@ -1,0 +1,350 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* Main Page styling -------------------------------*/
+
+.contact-bar {
+  /* border: 2px solid green; */
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-bar p {
+  font-weight: 420;
+  color: #ff7518;
+}
+
+.navbar {
+  /* border: 1px solid black; */
+  height: 60px;
+  margin-top: 5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 117, 24, 1) 51%,
+    rgba(255, 117, 24, 1) 100%
+  );
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  opacity: 90%;
+}
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  font-size: x-large;
+  color: black;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+/* Homepage Styling--------------- */
+
+.homepage {
+  height: 800px;
+  /* border: 2px solid red; */
+  margin-top: 20px;
+}
+
+.homepage .home-text {
+  /* border: 1px dotted blue; */
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 7px;
+  transition: step-end;
+}
+
+.homepage hr {
+  height: 12px;
+  width: 150px;
+  background-color: #ff7518;
+  color: #ff7518;
+  border-radius: 60px;
+  margin-left: 599px;
+}
+
+.homepage .what-we-text {
+  height: 80px;
+  /* border: 2px solid green; */
+  font-size: 50px;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+
+.homepage .home {
+  /* border: 2px solid gold; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.homepage .home p {
+  /* border: 2px dotted rebeccapurple; */
+  height: 650px;
+  width: 700px;
+  font-size: 30px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  padding: 30px;
+  /* background-color: #ff7518; */
+  border-radius: 40px;
+}
+.home img {
+  border-radius: 40px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+/* Menus Page Styling---------------- */
+
+.top-content {
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.menu-heading {
+  font-weight: 400;
+  letter-spacing: 7px;
+  font-size: 60px;
+}
+
+.menu-heading hr {
+  height: 12px;
+  width: 180px;
+  background-color: orange;
+  color: orange;
+  border-radius: 50px;
+}
+
+.second-content {
+  /* border: 2px solid grey; */
+  height: 70px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-content button {
+  border: none;
+  padding: 15px;
+  border: 2px solid orange;
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px;
+  font-weight: 500;
+  color: black;
+  cursor: pointer;
+}
+
+.third-content {
+  /* border: 2px solid green; */
+  height: 400px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.third-content .item-1 {
+  width: 400px;
+  height: 370px;
+  /* border: 2px dotted darkblue; */
+}
+.third-content .item-1 img {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.third-content .item-1 h2 {
+  font-weight: 500;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.third-content .item-1 p {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* item-2 -------------*/
+.third-content .item-2 {
+  width: 400px;
+  height: 370px;
+  /* border: 2px dotted darkblue; */
+}
+
+.third-content .item-2 img {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.third-content .item-2 h2 {
+  font-weight: 500;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.third-content .item-2 p {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* ----------item-3--------------- */
+.third-content .item-3 {
+  width: 400px;
+  height: 370px;
+  /* border: 2px dotted darkblue; */
+}
+
+.third-content .item-3 img {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.third-content .item-3 h2 {
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.third-content .item-3 p {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* foruth content ------ */
+
+.fourth-content {
+  /* border: 2px solid green; */
+  height: 400px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fourth-content .item-4 {
+  width: 400px;
+  height: 370px;
+  /* border: 2px dotted darkblue; */
+}
+.fourth-content .item-4 img {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.fourth-content .item-4 h2 {
+  font-weight: 500;
+  margin-left: 140px;
+  margin-top: 10px;
+}
+
+.fourth-content .item-4 p {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* item-2 -------------*/
+.fourth-content .item-5 {
+  width: 400px;
+  height: 370px;
+  /* border: 2px dotted darkblue; */
+}
+
+.fourth-content .item-5 img {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 40px;
+}
+
+.fourth-content .item-5 h2 {
+  font-weight: 500;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.fourth-content .item-5 p {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* ----------item-3--------------- */
+.fourth-content .item-6 {
+  width: 400px;
+  height: 370px;
+  /* border: 2px dotted darkblue; */
+}
+
+.fourth-content .item-6 img {
+  border: 1px solid white;
+  border-radius: 15px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.fourth-content .item-6 h2 {
+  font-weight: 500;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.fourth-content .item-6 p {
+  font-weight: 100;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+/* -----------ABout us------------- */
+
+.about-us {
+  border: 2px solid gray;
+  height: 600px;
+}
+
+.about-leftside {
+  border: 2px solid red;
+  width: 500px;
+}
+
+.about-leftside h1 {
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 50px;
+}
